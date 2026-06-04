@@ -5,4 +5,4 @@ st.set_page_config(
 )
 
 st.title("Inicio")
-st.sidebar.succes("¿Qué quieres hacer hoy?")
+st.sidebar.success("¿Qué quieres hacer hoy?")
