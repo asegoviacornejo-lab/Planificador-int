@@ -2,7 +2,7 @@ import streamlit as st
 from asignaturas import mostrar_asignaturas
 from calendario import mostrar_calendario
 
-pagina = st.sidebar.selectbox(
+pagina = st.sidebar(
     "Menú",
     ["Inicio", "Asignaturas", "Calendario"]
 )
