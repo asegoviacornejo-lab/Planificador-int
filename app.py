@@ -1,8 +1,17 @@
 import streamlit as st
-st.set_page_config(
-  page_title="aa",
-  page_icon="😎",
+from asignaturas import mostrar_asignaturas
+from calendario import mostrar_calendario
+
+pagina = st.sidebar.radio(
+    "Menú",
+    ["Inicio", "Asignaturas", "Calendario"]
 )
 
-st.title("Inicio")
-st.sidebar.success("¿Qué quieres hacer hoy?")
+if pagina == "Inicio":
+    st.title("Inicio")
+
+elif pagina == "Asignaturas":
+    mostrar_asignaturas()
+
+elif pagina == "Calendario":
+    mostrar_calendario()
