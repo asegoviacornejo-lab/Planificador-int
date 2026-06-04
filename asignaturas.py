@@ -1,2 +1,4 @@
 import streamlit as st
-st.title("A")
+
+def mostrar_asignaturas():
+    st.title("Asignaturas")
