@@ -4,11 +4,7 @@ APP_TITLE = "Organizador académico y personal"
 
 DB_PATH = Path(__file__).with_name("organizador.db")
 
-ENERGY_LEVELS = [
-    "Alta",
-    "Media",
-    "Baja",
-]
+ENERGY_LEVELS = ["Alta", "Media", "Baja"]
 
 EVALUATION_TYPES = [
     "Prueba",
